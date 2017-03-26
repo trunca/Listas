@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<channels>
+<channels_info> 
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Camaras Del Mundo **</title>
+<genre>Wepcam</genre>
+<description>La mejores webcaps</description>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<date>2016</date>
+<credits>© Catoal</credits>
+</channels_info>
+
+
+<channel>
+<name>España</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<items>
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Girona [/COLOR][COLOR yellow]Lloret de mar[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/cataluna/gerona/lloret-de-mar-costa-brava.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item>
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Barcelona [/COLOR][COLOR yellow]Playa de Sant Sebastia[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/cataluna/barcelona/playa-sant-sebastia.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item>
+
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Barcelona [/COLOR][COLOR yellow]Playa La Barceloneta[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/cataluna/barcelona/playa-barceloneta.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item>
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Cádiz[/COLOR][COLOR yellow] Puente de la Constitución de 1812/1[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=krIypJ2MEBU</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Cádiz[/COLOR][COLOR yellow] Puente de la Constitución de 1812/2[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=7D7bVqypm74</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Cádiz[/COLOR][COLOR yellow] Puente de la Constitución de 1812/3[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=KFsFWLeIBfQ</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Cádiz[/COLOR][COLOR yellow] Plaza de Sevilla[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=jFELUgq46WA</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+			
+<tem>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Cádiz[/COLOR][COLOR yellow] Puente Carranza[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=c3FDiVe2egU</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Baleares [/COLOR][COLOR yellow]La Savina - Formentera[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/islas-baleares/formentera/la-savina.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Baleares [/COLOR][COLOR yellow]Ibiza - Cala Vadella[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/islas-baleares/ibiza/cala-vadella.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Playa de Los Cristianos[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/playa-los-cristianos.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Catamaran Royal Delfin[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/catamarano-royal-delfin.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Gran Canaria - Playa Grande en Las Canteras[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/las-palmas-gran-canaria/playa-grande-las-canteras.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Las Palmas - Playa Las Canteras[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/las-palmas-gran-canaria/playa-las-canteras.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Paseo las Vistas[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/paseo-las-vistas.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Puerto Colon[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/puerto-colon-costa-adeje.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - La Orotava[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/la-orotava.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - El Medano[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/el-medano.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Las palmas - Costa Tequise[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/las-palmas/costa-teguise.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Gran Meleia Redlevel Garden[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/gran-melia-redlevel-garden.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Puerto de la Cruz[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/puerto-de-la-cruz-tenerife.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Las palmas - La Cicer Las Canteras[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/las-palmas-gran-canaria/la-cicer-las-canteras.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Santa Cruz de Tenerife[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/santa-cruz-de-tenerife.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Playa de el Medano[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/playa-de-el-medano.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Playa Troya[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/playa-troya.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Playa de Fanabe[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/playa-de-fanabe.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - El Teide[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/el-teide.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Golf Costa Adeje[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/golf-costa-adeje.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Plaza de la Candelaria[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/plaza-de-la-candelaria.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Macizo de Anaga[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/macizo-de-anaga.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]tenerife - Surf kitesurf Medano[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/surf-kitesurf-medano.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Las palmas - Playa las Cucharas[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/las-palmas/playa-las-cucharas.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]tenerife - Los Gigantes[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/los-gigantes.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - las Galletas[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/las-galletas.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Islas Canarias [/COLOR][COLOR yellow]Tenerife - Karting Club Tenerife[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/karting-club-tenerife.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Cantabria [/COLOR][COLOR yellow]Santilla del Mar[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/cantabria/santillana-del-mar/santillana-del-mar-cantabria.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Madrid [/COLOR][COLOR yellow]Puerta del Sol Tio Pepe[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-de-madrid/madrid/puerta-del-sol-tio-pepe.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item>
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Madrid [/COLOR][COLOR yellow]Puerta del Sol[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-de-madrid/madrid/puerta-del-sol.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item>
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Madrid [/COLOR][COLOR yellow]Edificio Metropolis[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-de-madrid/madrid/edificio-metropolis.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item>
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Madrid [/COLOR][COLOR yellow]Calle Gran Via[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-de-madrid/madrid/calle-gran-via.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item>
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Madrid [/COLOR][COLOR yellow]Calle Alcala[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-de-madrid/madrid/calle-alcala.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item>
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Madrid [/COLOR][COLOR yellow]Plaza España[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-de-madrid/madrid/plaza-de-espana.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Murcia [/COLOR][COLOR yellow]Bullas - Plaza España[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/region-de-murcia/murcia/bullas-plaza-de-espana.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Murcia [/COLOR][COLOR yellow]Plaza del Arco[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/region-de-murcia/murcia/plaza-del-arco.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Murcia [/COLOR][COLOR yellow]Manga del Mar Menor[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/region-de-murcia/murcia/manga-mar-menor.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Murcia [/COLOR][COLOR yellow]Cartagena - manga del Mar Menor[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/region-de-murcia/murcia/manga-mar-menor-cartagena.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Murcia [/COLOR][COLOR yellow]Mula[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/region-de-murcia/murcia/mula.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Comunidad Valenciana [/COLOR][COLOR yellow]Benidorm - Playa Poniente[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-valenciana/alicante/benidorm-playa-poniente.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Comunidad Valenciana [/COLOR][COLOR yellow]Benidorm - Playa Alicante[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-valenciana/alicante/benidorm-playa-alicante.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Comunidad Valenciana [/COLOR][COLOR yellow]Benidorm - Playa Poniente Sur[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-valenciana/alicante/benidorm-playa-poniente-sur.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Comunidad Valenciana [/COLOR][COLOR yellow]Alicante - Playa Albir[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-valenciana/alicante/alicante-playa-albir.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Comunidad Valenciana [/COLOR][COLOR yellow]Benidorm - Playa Levante[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-valenciana/alicante/benidorm-playa-levante.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Comunidad Valenciana [/COLOR][COLOR yellow]Altea - Playa la Roda[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-valenciana/alicante/altea-playa-la-roda.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+<item>
+  <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Comunidad Valenciana [/COLOR][COLOR yellow]Alicante - Playa del Albir[/COLOR] **</title>
+  <link>$doregex[playUrl]|User-Agent=Mozilla/5.0</link>
+  
+  <regex>
+  <name>playUrl</name>
+  <expres>url:'(.+m3u8.+?)'</expres>
+  <page>https://www.skylinewebcams.com/en/webcam/espana/comunidad-valenciana/alicante/playa-del-albir.html</page>
+  <agent>Mozilla/5.0</agent>
+  <cookieJar></cookieJar>
+  </regex>
+</item> 
+
+
+</items>
+</channel>
+
+<hannel>
+<name>Cádiz</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<items>
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Puente de la Constitución de 1812[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=krIypJ2MEBU</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+			
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Puente Carranza[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=c3FDiVe2egU</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>  
+</items>
+</channel>
+
+<channel>
+<name>Tokyo</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<items>
+	
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Shibuya scramble crossing[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=6q36pnzcw70</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>  
+</items>
+</channel>	
+
+
+</channels>

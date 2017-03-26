@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime][COLOR blue]29 [/COLOR]Paises del Mundo[/COLOR] **</title>
+<link>$doregex[list]</link>
+<thumbnail></thumbnail>
+<regex>
+<name>list</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime][list.param2][/COLOR] **</title>
+<link>$doregex[list2]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="([^\"]+)" class="menu-item">(.*?)&]]></expres>
+<page>https://www.skylinewebcams.com/en/webcam.html</page>
+<agent>Mozilla/5.0</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>list2</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow][list2.param3][/COLOR] **</title>
+<link>$doregex[cams]|User-Agent=iPhone</link>
+<thumbnail>https://[list2.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA["webcam"><a href="(.*?)".*?inal="(.*?)".*?title">(.*?)<.*?ption">(.*?)<]]></expres>
+<page>https://www.skylinewebcams.com[list.param1]</page>
+<agent>Mozilla/5.0</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>cams</name>
+<expres><![CDATA[#$pyFunction
+import requests, re
+def GetLSProData(page_data,Cookie_Jar,m,url = 'https://www.skylinewebcams.com[list2.param1]'):
+ headers = {'User-Agent': 'Mozilla/5.0','Referer': 'https://www.skylinewebcams.com'}
+ source = requests.get(url, headers=headers)
+ m3u8sX = re.findall(',url:.*?([^\']+)', source.text)[0]
+ return m3u8sX + '|headers'
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+</item> 
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Cádiz[/COLOR][COLOR yellow] Puente de la Constitución de 1812/1[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=krIypJ2MEBU</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Cádiz[/COLOR][COLOR yellow] Puente de la Constitución de 1812/2[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=7D7bVqypm74</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Cádiz[/COLOR][COLOR yellow] Puente de la Constitución de 1812/3[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=KFsFWLeIBfQ</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Cádiz[/COLOR][COLOR yellow] Plaza de Sevilla[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=jFELUgq46WA</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+			
+<tem>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Cádiz[/COLOR][COLOR yellow] Puente Carranza[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=c3FDiVe2egU</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item> 
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Tokyo[/COLOR][COLOR yellow] Shibuya scramble crossing[/COLOR] **</title>
+<link>plugin://plugin.video.youtube/play/?video_id=6q36pnzcw70</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item> 
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]O Porto[/COLOR] **</title> 
+<link>$doregex[getURL]</link>
+<regex>
+<name>getURL</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import requests, re
+ url = 'http://www.visitar-porto.com/pt/imagens-videos/video-ao-vivo.html'
+ headers = {'User-Agent': 'Version/4.0 Mobile Safari/534.30', 'Upgrade-Insecure-Requests': '1'}
+ source = requests.get(url,headers = headers)
+ link1 = re.findall('ipt.+src="(.+?live.+?)"', source.text)[0]
+ url2 = link1
+ headers2 = {'User-Agent': 'Version/4.0 Mobile Safari/534.30', 'Referer': url}
+ source2 = requests.get(url2,headers = headers2)
+ link2 = re.findall('iframe src="(.*?)"', source2.text)[0]
+ url3 = link2
+ headers3 = {'User-Agent': 'Version/4.0 Mobile Safari/534.30', 'Referer': url}
+ source3 = requests.get(url3,headers = headers3)
+ link3 = re.findall("ipadUrl:.+?'(.*?)'", source3.text)[0]
+ url4 = link3
+ headers4 = {'User-Agent': 'Version/4.0 Mobile Safari/534.30', 'Referer': url}
+ source4 = requests.get(url4,headers = headers4)
+ findm3u8 = re.findall('(http.*)', source4.text)[0]
+ play = findm3u8
+ return play + '|User-Agent=iPhone'
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Madeira[/COLOR] **</title> 
+<link>$doregex[getURL]</link>
+<regex>
+<name>getURL</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import requests, re
+ url = 'http://www.madeira-web.com/camera/cam-live.html'
+ headers = {'User-Agent': 'Version/4.0 Mobile Safari/534.30', 'Upgrade-Insecure-Requests': '1'}
+ source = requests.get(url,headers = headers)
+ link1 = re.findall('src="(.*?)".+?\/java', source.text)[0]
+ url2 = link1
+ headers2 = {'User-Agent': 'Version/4.0 Mobile Safari/534.30', 'Referer': url}
+ source2 = requests.get(url2,headers = headers2)
+ link2 = re.findall('iframe src="(.*?)"', source2.text)[0]
+ url3 = link2
+ headers3 = {'User-Agent': 'Version/4.0 Mobile Safari/534.30', 'Referer': url}
+ source3 = requests.get(url3,headers = headers3)
+ link3 = re.findall("ipadUrl:.+?'(.*?)'", source3.text)[0]
+ url4 = link3
+ headers4 = {'User-Agent': 'Version/4.0 Mobile Safari/534.30', 'Referer': url}
+ source4 = requests.get(url4,headers = headers4)
+ findm3u8 = re.findall('(http.*)', source4.text)[0]
+ play = findm3u8
+ return play + '|User-Agent=iPhone'
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+</item>
+ 
