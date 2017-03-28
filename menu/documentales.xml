@@ -8,88 +8,9 @@
 </item>
 
 <item>
-<title>[COLOR lime][B][  ][/B][/COLOR]    [COLOR lightgreen][B]BUSCAR SERIE[/B] [/COLOR][COLOR skyblue]en Seriesflv[/COLOR] </title>
-<link>$doregex[makelist3]</link>
-
-
-<regex>
-   <name>makelist3</name>
-   <listrepeat><![CDATA[
-          <title>[UPPERCASE][COLOR skyblue][makelist3.param2][/COLOR][/UPPERCASE]</title>
-          <link>$doregex[makelist]</link>
-]]></listrepeat>
-<expres>href="(http://www.seriesflv.net/ver/(.+?))"</expres>
-<page>https://www.bing.com/search?q=$doregex[search]+site%3Aseriesflv.net%2Fver</page>
- <cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>search</name>
-<expres><![CDATA[#$pyFunction
-import xbmc
-import xbmcaddon
-import xbmcgui
-def GetLSProData(page_data,Cookie_Jar,m):
-    dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar Serie: ejemplo: flash 2x22', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
-    return d
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
- 
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR lightblue][makelist3.param2] [I][COLOR gray]Idioma:[B][makelist.param1][/B] [/COLOR][/I] </title>
-<link>$doregex[url]/$doregex[id2]/v.flv</link>
-<regex>
-<name>url</name>
-<expres>vplayer[\w\W\s]{0,8}src="(.*?)\/i</expres>
-<page>http://streamin.to/embed-$doregex[link]-740x360.html</page>	 
-<referer>http://streamin.to</referer>
-</regex>
-<regex>
-<name>id2</name>
-<expres>image\|[\w\W\s]{0,3}\|(.*?)\|file</expres>
-<page>http://streamin.to/embed-$doregex[link]-740x360.html</page>	 
-<referer>http://streamin.to</referer>
-</regex>
-
-<regex>
-<name>link</name>
-<expres>http://streamin.to/(.*)"</expres>
-<page>[makelist.param2]</page>
-<referer>http://streamin.to</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
-<cookieJar>$doregex[createCFCookie]</cookieJar>
-
-</regex>
-<regex>
-        <name>createCFCookie</name>
-        <expres></expres>
-        <page>$pyFunction:cloudflare.createCookie('http://www.seriesflv.net',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36')</page>
-        <cookieJar></cookieJar>
-</regex>
- 
-]]></listrepeat>
-<expres>images/lang/(.*?).png[\w\W\s]{0,180}streamin.to[\w\W\s]{0,38}href="(.*?)"</expres>
-<page>[makelist3.param1]</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
-<cookieJar>$doregex[createCFCookie]</cookieJar>
-</regex>
-
-<regex>
-        <name>createCFCookie</name>
-        <expres></expres>
-        <page>$pyFunction:cloudflare.createCookie('http://www.seriesflv.net',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36')</page>
-        <cookieJar></cookieJar>
-</regex>
-
-
-
-<thumbnail>http://adryanlist.org/adryan/img/series.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<title>[COLOR lime]BUSCADOR DE SERIES[/COLOR] </title>
+<link>http://Ignoreme</link>
+<externallink>http://adryanlist.org/adryan/buscarserie.xml</externallink>
+<thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
+<fanart>http://i.imgur.com/ThxGCxm.jpg</fanart> 
 </item>
-
-
