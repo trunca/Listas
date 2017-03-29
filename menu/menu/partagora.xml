@@ -12,8 +12,8 @@
 		<thumbnail>http://i.imgur.com/aYKmxRv.png</thumbnail>
 <fanart>http://i.imgur.com/peJPGUg.png</fanart>
         ]]></listrepeat>
-<expres>terror:"(.*?)" src="(.*?)"</expres>
-<page>https://raw.githubusercontent.com/trutorangvice/listas/menu/partagora</page>
+<expres>series:"(.*?)" src="(.*?)"</expres>
+<page>https://raw.githubusercontent.com/trutorangvice/listas/menu/partagora/partagora.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -36,8 +36,8 @@
 import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
 
- ref = 'http://copiapop.com/' 
- url='http://copiapop.com[makelist.param1]'
+ ref = 'http://partagora.com/' 
+ url='http://partagora.com[makelist.param1]'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
@@ -46,17 +46,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
  data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://copiapop.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nr = requests.post('http://partagora.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
  nrj=json.loads(nr)
  nr = nrj['Content']
  r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
  data_a ={'__RequestVerificationToken': r2 , 'Username': 'amistad' , 'Password' : 'asegurada'}
- nr1 = requests.post('http://partagon.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ nr1 = requests.post('http://partagora.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
  print nr1.headers['Set-Cookie']
  rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
  rv1['.ASPXAUTH_v2'] = rasp
  data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://partagon.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ nr3 = requests.post('http://partagora.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
  r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
  print r3
  return r3
