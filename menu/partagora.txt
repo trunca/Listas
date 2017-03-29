@@ -1,4 +1,3 @@
-serie:"hawai5.0" src="http://partagora.com/chicho306/hawaii-5-0-dual-t7-66007/hawaii-5-0-7x09,592775.mkv";
-serie:"hawai5.0" src="http://partagora.com/chicho306/hawaii-5-0-dual-t7-66007/hawaii-5-0-7x14,664958.mkv";
-serie:"alliabajo" src="http://partagora.com/chicho306/alli-abajo-t3-69673/alli-abajo-3x01,658396,gallery,1,1.mkv";
-serie:"alliabajo" src="http://partagora.com/chicho306/alli-abajo-t3-69673/alli-abajo-3x02,671817,gallery,1,1.mkv";
+serie:"hawai5.0" src="http://partagora.com/chicho306/hawaii-5-0-dual-t7-66007";
+serie:"alliabajo" src="http://partagora.com/chicho306/alli-abajo-t3-69673";
+
