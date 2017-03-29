@@ -12,7 +12,7 @@
 		<thumbnail>http://i.imgur.com/aYKmxRv.png</thumbnail>
 <fanart>http://i.imgur.com/peJPGUg.png</fanart>
         ]]></listrepeat>
-<expres>series:"(.*?)" src="(.*?)"</expres>
+<expres>serie:"(.*?)" src="(.*?)"</expres>
 <page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagora.xml</page>
 <cookieJar></cookieJar>
 </regex>
