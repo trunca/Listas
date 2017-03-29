@@ -2,7 +2,7 @@
 
 
 <item>
-<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR red]Miedo en Estado Puro[/COLOR] **</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR red]pantagora[/COLOR] **</title>
 <link>$doregex[makelist2]</link>
 <regex>
   <name>makelist2</name>
