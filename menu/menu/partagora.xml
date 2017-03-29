@@ -13,7 +13,7 @@
 <fanart>http://i.imgur.com/peJPGUg.png</fanart>
         ]]></listrepeat>
 <expres>series:"(.*?)" src="(.*?)"</expres>
-<page>https://raw.githubusercontent.com/trutorangvice/listas/menu/partagora/partagora.txt</page>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagora.xml</page>
 <cookieJar></cookieJar>
 </regex>
 
