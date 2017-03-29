@@ -13,7 +13,7 @@
 <fanart>http://i.imgur.com/peJPGUg.png</fanart>
         ]]></listrepeat>
 <expres>terror:"(.*?)" src="(.*?)"</expres>
-<page>https://raw.githubusercontent.com/trutorangvice/Peliculas/master/Copiapopnew/terror.txt</page>
+<page>https://raw.githubusercontent.com/trutorangvice/listas/menu/partagora</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -51,12 +51,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
  nr = nrj['Content']
  r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
  data_a ={'__RequestVerificationToken': r2 , 'Username': 'amistad' , 'Password' : 'asegurada'}
- nr1 = requests.post('http://copiapop.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ nr1 = requests.post('http://partagon.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
  print nr1.headers['Set-Cookie']
  rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
  rv1['.ASPXAUTH_v2'] = rasp
  data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://copiapop.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ nr3 = requests.post('http://partagon.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
  r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
  print r3
  return r3
