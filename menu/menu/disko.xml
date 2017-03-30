@@ -10,8 +10,8 @@
 		<thumbnail>http://goo.gl/QbW1WA</thumbnail>
 		<fanart>http://www.abc.es/media/ciencia/2016/04/05/vikingos--620x349.jpg</fanart>
         ]]></listrepeat>
-<expres>vikingos:"(.*?)" name:"(.*?)";</expres>
-<page>https://raw.githubusercontent.com/Carlesto/Series/master/disko.txt</page>
+<expres>alliabajo:"(.*?)" name:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/disko.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
