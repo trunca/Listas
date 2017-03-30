@@ -1,1 +1,1 @@
-narco:"http://partagora.com/chicho306/narcos-t1-68963" name:"Temporada 1";
+narcos:"http://partagora.com/chicho306/narcos-t1-68963" name:"Temporada 1";
