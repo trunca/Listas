@@ -1,3 +1,2 @@
-alliabajo:"http://partagora.com/chicho306/alli-abajo-t1-70913" name:"Temporada 1";
-alliabajo:"http://partagora.com/chicho306/alli-abajo-t2-70914" name:"Temporada 2";
-alliabajo:"http://partagora.com/chicho306/alli-abajo-t3-69673" name:"Temporada 3";
+
+alliabajo:"http://diskokosmiko.mx/trivianita/alli-abajo-temp-3-63416" name:"Temporada 3";
