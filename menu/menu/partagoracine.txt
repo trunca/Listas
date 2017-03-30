@@ -1,1 +1,1 @@
-peliculas:"pelis" src="http://partagora.com/chicho306/pelis-54601";
+Hawaii:"Hawaii 5-0 (Dual) T7" src="http://partagora.com/chicho306/hawaii-5-0-dual-t7-66007";
