@@ -1,1 +1,1 @@
-Hawaii:"Hawaii 5-0 (Dual) T7" src="http://partagora.com/chicho306/hawaii-5-0-dual-t7-66007";
+Hawaii:"http://partagora.com/chicho306/hawaii-5-0-dual-t7-66007" name:"Temporada 7";
