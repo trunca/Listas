@@ -1,5 +1,5 @@
 <item>
-<title>[ [COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ][COLOR lime]HAWAII 5-0 T7[/COLOR]</title>
+<title>[ [COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ][COLOR lime]NARCOS T1[/COLOR]</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
@@ -11,7 +11,7 @@
 		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
         ]]></listrepeat>
 <expres>Narcos:"(.*?)" name:"(.*?)";</expres>
-<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagoranarcos.txt</page>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagorahawaii.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
