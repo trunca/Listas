@@ -1,1 +1,1 @@
-peliculas:"http://partagora.com/chicho306/pelis-54601";
+peliculas:"pelis" src="http://partagora.com/chicho306/pelis-54601";
