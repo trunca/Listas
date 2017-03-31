@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<item>
-<title>[COLOR lime]prueba[/COLOR] </title>
-<link>http://Ignoreme</link>
-<externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/diskodocumentales.xml</externallink>
-<thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
-<fanart>http://i.imgur.com/ThxGCxm.jpg</fanart> 
-</item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Series de TV[/B] [/COLOR] [COLOR lightslategray] [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/adryflix.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/gnula.xml</externallink>
+<title>[COLOR lime]DOCUMENTALES[/COLOR] </title>
+<link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/diskopedocumentales.xml</externallink>
+<thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
+<fanart>http://i.imgur.com/ThxGCxm.jpg</fanart> 
 </item>
