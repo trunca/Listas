@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]ESTRENOS[/COLOR] **</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime][/COLOR] **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -12,7 +12,7 @@
         <fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/naredo/los-hombres-de-harrelson-serie-55373/list,1,1</page>
+<page></page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
