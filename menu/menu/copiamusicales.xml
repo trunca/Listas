@@ -1,5 +1,5 @@
 <item>
-<title>MUSICALES</title>
+<title>MUSICALES1</title>
 <link>$doregex[makelist2]</link>
 <regex>
   <name>makelist2</name>
