@@ -91,17 +91,31 @@
   
 <item>
 <title>7vidas</title>
-<link>$doregex[makelist]</link>
+<link>$doregex[makelist3]</link>
+
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>[makelist3.param2]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>http://imgs24.com/images/Olmos-y-Robles.jpg</thumbnail>
+		<fanart>http://maravillastv.es/wp-content/uploads/2015/09/Olmos-50.jpg</fanart>
+        ]]></listrepeat>
+<expres>olmos:"(.*?)" name:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/disko.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-        <thumbnail>http://vignette1.wikia.nocookie.net/house-of-cards/images/0/05/House_of_Cards_Season_4_poster_2.jpg</thumbnail>
-        <fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
-]]></listrepeat>
+		<thumbnail>http://imgs24.com/images/Olmos-y-Robles.jpg</thumbnail>
+		<fanart>http://maravillastv.es/wp-content/uploads/2015/09/Olmos-50.jpg</fanart>
+        ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://copiapop.com/Azofaifa/7-vidas-37525</page>
+<page>[makelist3.param1]/list,1,15</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -115,6 +129,15 @@
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
 </regex>
-
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx[makelist2.param1]/list,1,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://imgs24.com/images/Olmos-y-Robles.jpg</thumbnail>
+<fanart>http://maravillastv.es/wp-content/uploads/2015/09/Olmos-50.jpg</fanart>
 </item>
-</item>	
+
