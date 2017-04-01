@@ -7,7 +7,7 @@ musicales:"musicales" src="http://copiapop.com/Koba1994/cine-musical-97455";
 
 
 
-visitantes:"visitantes" src="http://copiapop.com/Koba1994/v-los-visitantes-serie-1982-67064";
+visitantes:"visitantes" src="http://copiapop.com/Txarly/v-76118/gallery,1,1";
 
 
 
