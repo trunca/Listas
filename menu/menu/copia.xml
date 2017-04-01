@@ -1,5 +1,5 @@
 <item>
-<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR red]Expediente X[/COLOR] **</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR red]Miedo en Estado Puro[/COLOR] **</title>
 <link>$doregex[makelist2]</link>
 <regex>
   <name>makelist2</name>
@@ -10,7 +10,7 @@
 <fanart>http://i.imgur.com/peJPGUg.png</fanart>
         ]]></listrepeat>
 <expres>terror:"(.*?)" src="(.*?)"</expres>
-<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/copia.txt</page>
+<page>https://raw.githubusercontent.com/Carlesto/Peliculas/master/Copiapopnew/terror.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
