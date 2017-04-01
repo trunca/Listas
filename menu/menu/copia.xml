@@ -9,7 +9,7 @@
 		<thumbnail>http://i.imgur.com/aYKmxRv.png</thumbnail>
 <fanart>http://i.imgur.com/peJPGUg.png</fanart>
         ]]></listrepeat>
-<expres>expedientex:"(.*?)" src="(.*?)"</expres>
+<expres>expediente:"(.*?)" src="(.*?)"</expres>
 <page>https://raw.githubusercontent.com/Carlesto/Peliculas/master/Copiapopnew/terror.txt</page>
 <cookieJar></cookieJar>
 </regex>
