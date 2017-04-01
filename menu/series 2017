@@ -2,7 +2,7 @@
 <title>[COLOR lime]ALLI ABAJO T3[/COLOR] </title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/disko.xml</externallink>
-<thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
+<ePixmap name="green"  position="140,450" zPosition="2" size="140,40" pixmap=http://i.imgur.com/ESsfjmY.png" transparent="1" alphatest="on" />
 <fanart>http://i.imgur.com/ThxGCxm.jpg</fanart> 
 </item>
 
