@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Hombre Harrelson[/COLOR] **</title>
+<title>Hombre Harrelson</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] **  [makelist.param3] **</title>
+        <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://vignette1.wikia.nocookie.net/house-of-cards/images/0/05/House_of_Cards_Season_4_poster_2.jpg</thumbnail>
         <fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
@@ -40,12 +40,12 @@
 
   
   <item>
-<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]El coche fantastico[/COLOR] **</title>
+<title>El coche fantastico</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] **  [makelist.param3] **</title>
+        <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://vignette1.wikia.nocookie.net/house-of-cards/images/0/05/House_of_Cards_Season_4_poster_2.jpg</thumbnail>
         <fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
@@ -65,16 +65,6 @@
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
 </regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/catoal/house-of-cards-t1-43442/list,1,1</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vignette1.wikia.nocookie.net/house-of-cards/images/0/05/House_of_Cards_Season_4_poster_2.jpg</thumbnail>
-<fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
 </item>
   
  
