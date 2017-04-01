@@ -1,5 +1,6 @@
+
 <item>
-<title>HAWAII 5-0 T7</title>
+<title>ARON</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
@@ -10,8 +11,8 @@
 		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
 		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
         ]]></listrepeat>
-<expres>Hawaii:"(.*?)" name:"(.*?)";</expres>
-<page>http://partagora.com/aron/animados-71625</page>
+<expres>aron:"(.*?)" name:"(.*?)";</expres>
+<page>"https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagoranarcos.txt"</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -40,4 +41,3 @@
 </regex>
 
 </item>
-	
