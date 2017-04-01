@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Bud Spencer Terence Hill[/COLOR] **</title>
+<title>Bud Spencer Terence Hill</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] **  [makelist.param3] **</title>
+        <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://vignette1.wikia.nocookie.net/house-of-cards/images/0/05/House_of_Cards_Season_4_poster_2.jpg</thumbnail>
         <fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
@@ -40,12 +40,12 @@
 
   
 <item>
-<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Paco martinez soria[/COLOR] **</title>
+<title>Paco martinez soria</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] **  [makelist.param3] **</title>
+        <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://vignette1.wikia.nocookie.net/house-of-cards/images/0/05/House_of_Cards_Season_4_poster_2.jpg</thumbnail>
         <fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
@@ -79,12 +79,12 @@
 
   
 <item>
-<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Pajares y Esteso[/COLOR] **</title>
+<title>Pajares y Esteso</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] **  [makelist.param3] **</title>
+        <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://vignette1.wikia.nocookie.net/house-of-cards/images/0/05/House_of_Cards_Season_4_poster_2.jpg</thumbnail>
         <fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
@@ -118,12 +118,12 @@
 
   
 <item>
-<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]Cine Kinki[/COLOR] **</title>
+<title>Cine Kinki</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] **  [makelist.param3] **</title>
+        <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://vignette1.wikia.nocookie.net/house-of-cards/images/0/05/House_of_Cards_Season_4_poster_2.jpg</thumbnail>
         <fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
