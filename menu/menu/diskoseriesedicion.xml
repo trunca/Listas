@@ -182,7 +182,7 @@
 <regex>
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<page>http://partagon.com/[makelist.param2]</page>
 <referer>http://diskokosmiko.mx/catoal/house-of-cards-t2-43516/list,1,1</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
