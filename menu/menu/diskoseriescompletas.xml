@@ -101,7 +101,7 @@
         <fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://copiapop.com/Azofaifa/7-vidas-37525/gallery,1,1</page>
+<page>http://copiapop.com/Azofaifa/7-vidas-37525</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
