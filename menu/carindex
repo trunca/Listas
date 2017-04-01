@@ -3,7 +3,7 @@
 
 
 <item>
-<title>[COLOR lime]PELICULAS[/COLOR]</title>
+<title>PELICULAS</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/peliculas.xml</externallink>
 <Thumbnail>http://i.imgur.com/etzwpWF.png</thumbnail>
@@ -11,7 +11,7 @@
 </item>
 
 <item>
-<title>[COLOR lime] SERIES [/COLOR] </title>
+<title>SERIES</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/series.xml</externallink>
 <thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
@@ -19,7 +19,7 @@
 </item>
 
 <item>
-<title>[COLOR lime] SERIES 1[/COLOR] </title>
+<title>SERIES 1</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/copia.xml</externallink>
 <thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
@@ -27,7 +27,7 @@
 </item>
 
 <item>
-<title>[COLOR lime]DOCUMENTALES[/COLOR]</title>
+<title>DOCUMENTALES</title>
 <link>http://Ignoreme</link>
 <thumbnail>http://i.imgur.com/aYKmxRv.png</thumbnail>
 <fanart>http://i.imgur.com/peJPGUg.png</fanart>
