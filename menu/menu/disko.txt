@@ -1,2 +1,4 @@
 
 alliabajo:"http://diskokosmiko.mx/trivianita/alli-abajo-temp-3-63416" name:"Temporada 3";
+
+7vidas:"http://copiapop.com/Azofaifa/7-vidas-37525" name:"completa";
