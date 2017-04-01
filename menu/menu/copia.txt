@@ -1,5 +1,5 @@
 expediente:"expedientex" src="http://copiapop.com/Koba1994/expediente-x-miniserie-45569";
-
+vidas:"7vidas" src="http://copiapop.com/Azofaifa/7-vidas-37525/gallery,1,1";
 
 
 
