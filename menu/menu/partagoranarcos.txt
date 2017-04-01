@@ -1,1 +1,1 @@
-Narcos:"http://partagora.com/chicho306/narcos-t1-68963" name:"Temporada 1";
+aron:"http://partagora.com/aron/animados-71625" name:"pelicuas";
