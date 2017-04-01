@@ -38,14 +38,5 @@
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
 </regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx[makelist2.param1]/list,1,15</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://goo.gl/QbW1WA</thumbnail>
-<fanart>http://www.abc.es/media/ciencia/2016/04/05/vikingos--620x349.jpg</fanart>
+
 </item>
