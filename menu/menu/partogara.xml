@@ -1,11 +1,11 @@
 <item>
-<title>[ [COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ][COLOR lime]HAWAII 5-0 T7[/COLOR]</title>
+<title>HAWAII 5-0 T7</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
   <name>makelist3</name>
   <listrepeat><![CDATA[
-        <title>[ [COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ][COLOR lime] [makelist3.param2][/COLOR]</title>
+        <title>[makelist3.param2]</title>
         <link>$doregex[makelist]</link>
 		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
 		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
@@ -18,7 +18,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[ [COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ][COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
 		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
 		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
