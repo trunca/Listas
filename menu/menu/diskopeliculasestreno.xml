@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime][/COLOR] **</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime]La Gran Muralla[/COLOR] **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -12,7 +12,7 @@
         <fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page></page>
+<<page>http://diskokosmiko.mx/tomgiganto/pelis-ts-screener-50310</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
