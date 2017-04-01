@@ -1,3 +1,0 @@
-serie:"hawai5.0" src="http://partagora.com/chicho306/hawaii-5-0-dual-t7-66007/list,1,1";
-serie:"alliabajo" src="http://partagora.com/chicho306/alli-abajo-t3-69673/list,1,1";
-
