@@ -513,7 +513,7 @@
 </item>
 
 <item>
-<title>Los 100 T1</title>
+<title>Los 100 T4</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
