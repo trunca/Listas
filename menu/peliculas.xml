@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR lime]PELICULAS ESTRENO[/COLOR] </title>
+<title>PELICULAS ESTRENO</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/diskopeliculasestreno.xml</externallink>
 <thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
@@ -10,7 +10,7 @@
 
 
 <item>
-<title>[COLOR lime]PELICULAS VARIAS[/COLOR] </title>
+<title>PELICULAS VARIAS</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/diskopeliculasvarias.xml</externallink>
 <thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
@@ -19,7 +19,7 @@
 
 
 <item>
-<title>[COLOR lime]PELICULAS INFANTILES[/COLOR] </title>
+<title>PELICULAS INFANTILES</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/diskopeliculasinfantiles.xml</externallink>
 <thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
@@ -28,7 +28,7 @@
 
 
 <item>
-<title>[COLOR lime]PELICULAS ANTIGUAS[/COLOR] </title>
+<title>PELICULAS ANTIGUAS</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/diskopeliculasantiguas.xml</externallink>
 <thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
@@ -37,7 +37,7 @@
 
 
 <item>
-<title>[COLOR lime]PELICULAS ADULTOS[/COLOR] </title>
+<title>PELICULAS ADULTOS</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/diskopeliculasadultos.xml</externallink>
 <thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
@@ -45,7 +45,7 @@
 </item>
 
 <item>
-<title>[COLOR lime]PELICULAS MUSICALES[/COLOR] </title>
+<title>PELICULAS MUSICALES</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/copiamusicales.xml</externallink>
 <thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
@@ -53,7 +53,7 @@
 </item>
 
 <item>
-<title>[COLOR lime]PELICULAS TERROR[/COLOR] </title>
+<title>PELICULAS TERROR</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/terror.xml</externallink>
 <thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
@@ -61,7 +61,7 @@
 </item>
 
 <item>
-<title>[COLOR lime]PELICULAS ROMANTICAS[/COLOR] </title>
+<title>PELICULAS ROMANTICAS</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/romanticas.xml</externallink>
 <thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
@@ -69,9 +69,9 @@
 </item>
 
 <item>
-<title>[COLOR lime]PRUEBAS[/COLOR] </title>
+<title>PELICULAS wéstern</title>
 <link>http://Ignoreme</link>
-<externallink>5/t+kfNMUx4/bYZpbJIqV8iCfT5DWDEIEcu4WKRFqrCtv0ENcXXp5ZpuRJkBIkg4mUxB3ZBKAhaAGDBRMXYuZQ==</externallink>
+<externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/wéstern.xml</externallink>
 <thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
 <fanart>http://i.imgur.com/ThxGCxm.jpg</fanart> 
 </item>
