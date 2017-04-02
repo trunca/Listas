@@ -4,4 +4,4 @@ alliabajo:"http://diskokosmiko.mx/trivianita/alli-abajo-temp-3-63416" name:"Temp
 7vidas:"http://diskokosmiko.mx/lokario1/7-vidas-siete-vidas-completa-11882" name:"completa";
 
 cimarron:"http://diskokosmiko.mx/naredo/cimarron-strip-serie-54229" name:"western";
-cimarron:"http://diskokosmiko.mx/naredo/western-19889/list,1,1" name:"western";
+western:"http://diskokosmiko.mx/naredo/western-19889/list,1,1" name:"western";
