@@ -14,4 +14,4 @@ bones:"http://partagora.com/chicho306/bones-t12-65586" name:"T12";
 
 big:"http://partagora.com/chicho306/the-big-bang-theory-t10-55202" name:"T10";
 
-erase:"http://partagora.com/chicho306/the-big-bang-theory-t10-55202" name:"T16";
+erase:"http://partagora.com/chicho306/erase-una-vez-t6-55575" name:"T6";
