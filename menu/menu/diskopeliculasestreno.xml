@@ -12,7 +12,7 @@
 <fanart></fanart>
 ]]></listrepeat>
 <expres><![CDATA[estrenos:"(.*?)" name:"(.*?)";]]></expres>
-<page>https://raw.githubusercontent.com/Carlesto/Peliculas/master/peliculas.txt</page>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagoraaron.txt</page>
 </regex>
 
  <regex>
@@ -68,7 +68,7 @@
 <fanart></fanart>
 ]]></listrepeat>
 <expres><![CDATA[espa:"(.*?)" name:"(.*?)";]]></expres>
-<page>https://raw.githubusercontent.com/Carlesto/Peliculas/master/peliculas.txt</page>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagoraaron.txt</page>
 </regex>
 
  <regex>
