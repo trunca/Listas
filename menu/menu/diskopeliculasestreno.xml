@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<item>
+<title>La Reina de españa</title>
+<urlsolve>http://streamcloud.eu/w7u08ys77jls</urlsolve>
+<thumbnail>http://es.web.img3.acsta.net/pictures/16/11/07/13/01/287360.jpg</thumbnail>
+<fanart>http://es.web.img2.acsta.net/videothumbnails/16/09/08/10/19/311129.jpg</fanart>
+</item>
+
 <item> 
 <title>Estrenos</title>
 <link>$doregex[makelist3]</link>
