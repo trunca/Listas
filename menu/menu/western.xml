@@ -54,7 +54,7 @@
 		<fanart>http://www.ecestaticos.com/image/clipping/33e1388f7b6dd41e55f7a4b7e302c10e/el-reparto-de-aida-en-2013-telecinco.jpg</fanart>
         ]]></listrepeat>
 <expres>western:"(.*?)" name:"(.*?)";</expres>
-<page>https://raw.githubusercontent.com/Carlesto/Series/master/seriesvarios.txt</page>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/disko.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
