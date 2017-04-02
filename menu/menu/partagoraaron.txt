@@ -9,3 +9,5 @@ pareja:"http://partagora.com/chicho306/la-extrana-pareja-dual-t3-65938" name:"T3
 codigo:"http://partagora.com/chicho306/codigo-negro-dual-t1-65454" name:"T1";
 
 magi:"http://partagora.com/chicho306/the-magicians-dual-t2-65753" name:"T2";
+
+bones:"http://partagora.com/chicho306/bones-t12-65586" name:"T12";
