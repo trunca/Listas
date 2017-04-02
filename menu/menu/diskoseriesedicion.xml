@@ -125,9 +125,8 @@
 <fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
 </item>
 
-  
 <item>
-<title>Blue Bloods T7</title>
+<title>BlueBloodsT7</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
@@ -138,7 +137,7 @@
 		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
 		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
         ]]></listrepeat>
-<expres>Hawaii:"(.*?)" name:"(.*?)";</expres>
+<expres>aron:"(.*?)" name:"(.*?)";</expres>
 <page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagora.txt</page>
 <cookieJar></cookieJar>
 </regex>
@@ -166,4 +165,6 @@
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
 </regex>
-</item> 
+
+</item>
+
