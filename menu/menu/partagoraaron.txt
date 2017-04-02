@@ -2,3 +2,5 @@ aron:"http://partagora.com/aron/animados-71625" name:"pelis";
 
 bella:"http://partagora.com/thehouse21/b3ll4-y-b3st14-69307" name:"bella";
 
+crisia:"http://partagora.com/chicho306/crisis-in-six-scenes-dual-t1-70973" name:"T1";
+
