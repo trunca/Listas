@@ -1,1 +1,1 @@
-bluebloods:"http://partagora.com/chicho306/blue-bloods-t7-66747" name:"series";
+chicho306:"http://partagora.com/chicho306/blue-bloods-t7-66747" name:"series";
