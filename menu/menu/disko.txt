@@ -6,4 +6,4 @@ alliabajo:"http://diskokosmiko.mx/trivianita/alli-abajo-temp-3-63416" name:"Temp
 cimarron:"http://diskokosmiko.mx/naredo/cimarron-strip-serie-54229" name:"western";
 western:"http://diskokosmiko.mx/naredo/western-19889" name:"western";
 
-belicas:"http://diskokosmiko.mx/naredo/western-19889" name:"varias1";
+belicas:"http://diskokosmiko.mx/naredo/belicas-20003" name:"varias1";
