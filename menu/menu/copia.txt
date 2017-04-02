@@ -11,7 +11,6 @@ visitantes:"visitantes" src="http://copiapop.com/Txarly/v-76118/gallery,1,1";
 
 cineinfantil:"cineinfantil" src="http://copiapop.com/rakel53/cine-infantil-47525";
 
-
-
+romantica:"romantica" src="http://copiapop.com/martikue/peliculas-romanticas-94905";
 
 
