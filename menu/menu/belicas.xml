@@ -1,0 +1,42 @@
+<item>
+<title> VARIAS BELICAS</title>
+<link>$doregex[makelist3]</link>
+
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>[makelist3.param2]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>http://goo.gl/QbW1WA</thumbnail>
+		<fanart>http://www.abc.es/media/ciencia/2016/04/05/vikingos--620x349.jpg</fanart>
+        ]]></listrepeat>
+<expres>belicas:"(.*?)" name:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/disko.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://goo.gl/QbW1WA</thumbnail>
+		<fanart>http://www.abc.es/media/ciencia/2016/04/05/vikingos--620x349.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist3.param1]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+
+</item>
