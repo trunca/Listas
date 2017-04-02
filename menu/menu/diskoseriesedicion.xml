@@ -137,8 +137,8 @@
 		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
 		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
         ]]></listrepeat>
-<expres>aron:"(.*?)" name:"(.*?)";</expres>
-<page>http://partagora.com/chicho306/blue-bloods-t7-66747</page>
+<expres>blue:"(.*?)" name:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagora1.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
