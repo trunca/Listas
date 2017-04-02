@@ -18,7 +18,7 @@ erase:"http://partagora.com/chicho306/erase-una-vez-t6-55575" name:"T6";
 
 ncis:"http://partagora.com/chicho306/ncis-los-angeles-t8-65792" name:"T8";
 
-los100:"http://partagora.com/chicho306/los-100-t1-66595" name:"T1";
+los100:"http://partagora.com/chicho306/los-100-dual-t4-65752" name:"T4";
 
 
 espa:"http://ver-peliculas.org//peliculas/en-espanol/" name:"Idioma Español";
