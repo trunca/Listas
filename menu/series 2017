@@ -524,7 +524,7 @@
 		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
 		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
         ]]></listrepeat>
-<expres>LOS 100:"(.*?)" name:"(.*?)";</expres>
+<expres>los100:"(.*?)" name:"(.*?)";</expres>
 <page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagoraaron.txt</page>
 <cookieJar></cookieJar>
 </regex>
