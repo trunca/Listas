@@ -1,3 +1,7 @@
 
 
 musicales:"musicales" src="http://copiapop.com/Koba1994/cine-musical-97455";
+
+
+
+7vidas:"7vidas" src="http://copiapop.com/Azofaifa/7-vidas-37525/list,1,1";
