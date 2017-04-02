@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>Alfabeticamente</title>
+<link>$doregex[makelist4]</link>
+<regex>
+<name>makelist4</name>
+<listrepeat><![CDATA[
+<title>Letra [makelist4.param2]</title>
+<link>$doregex[makelist3]</link>
+]]></listrepeat>
+<expres>href="/lista-de-series/(.*?)">(.*?)<</expres>
+<page>http://gnula.se/lista-de-series/</page>
+<referer>http://gnula.se</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+<cookieJar>$doregex[createCFCookie]</cookieJar>
+</regex>
+
+<regex>
+<name>createCFCookie</name>
+<expres></expres>
+<page>$pyFunction:cloudflare.createCookie('http://gnula.se',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36')</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[makelist3.param2]</title>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>capitulos/(.*?)" title="(.*?)"</expres>
+<page>http://gnula.se/lista-de-series/[makelist4.param1]</page>
+<referer>http://gnula.se</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+<cookieJar>$doregex[createCFCookie]</cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param3] [makelist2.param2]</title>
+<link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres>href="http://gnula.se/capitulo/(.*?)"[\w\W\s]{0,9}>(.*?)<[\w\W\s]{0,9}-(.*?)<</expres>
+<page>http://gnula.se/capitulos/[makelist3.param1]</page>
+<referer>http://gnula.se</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+<cookieJar>$doregex[createCFCookie]</cookieJar>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>Idioma:[makelist.param2]</title>
+<link>$doregex[url]/$doregex[id2]/v.flv</link>
+<regex>
+<name>url</name>
+<expres>vplayer[\w\W\s]{0,8}src="(.*?)\/i</expres>
+<page>http://streamin.to/embed-[makelist.param1]-740x360.html</page>	 
+<referer>http://streamin.to</referer>
+</regex>
+<regex>
+<name>id2</name>
+<expres>image\|[\w\W\s]{0,3}\|(.*?)\|file</expres>
+<page>http://streamin.to/embed-[makelist.param1]-740x360.html</page>	 
+<referer>http://streamin.to</referer>
+</regex>
+<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+]]></listrepeat>
+<expres>href="http://streamin.to/(.*?)"[\w\W\s]{0,400}lng/(.*?).png</expres>
+<page>http://gnula.se/capitulo/[makelist2.param1]</page>
+<referer>http://gnula.se</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+<cookieJar>$doregex[createCFCookie]</cookieJar>
+</regex>
+
+<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+</item>
