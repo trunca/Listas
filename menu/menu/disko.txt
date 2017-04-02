@@ -2,3 +2,5 @@
 alliabajo:"http://diskokosmiko.mx/trivianita/alli-abajo-temp-3-63416" name:"Temporada 3";
 
 7vidas:"http://diskokosmiko.mx/lokario1/7-vidas-siete-vidas-completa-11882" name:"completa";
+
+cimarron:"http://diskokosmiko.mx/naredo/cimarron-strip-serie-54229" name:"wéstern";
