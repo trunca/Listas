@@ -15,3 +15,4 @@ romantica:"romantica" src="http://copiapop.com/martikue/peliculas-romanticas-949
 
 pelis3d:"pelis3d" src="http://copiapop.com/perales/peliculas-3d-52423/gallery,1,1";
 
+bonanza:"bonanza" src="http://copiapop.com/cmfp80/bonanza-58108";
