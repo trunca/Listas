@@ -16,3 +16,5 @@ romantica:"romantica" src="http://copiapop.com/martikue/peliculas-romanticas-949
 pelis3d:"pelis3d" src="http://copiapop.com/perales/peliculas-3d-52423/gallery,1,1";
 
 leyorden:"leyorden" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-7-66609";
+
+leyorden:"leyorden" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-6-66608";
