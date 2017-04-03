@@ -1,4 +1,4 @@
-aron:"http://partagora.com/aron/animados-71625" name:"pelis";
+
 
 bella:"http://partagora.com/thehouse21/b3ll4-y-b3st14-69307" name:"bella";
 
@@ -24,7 +24,7 @@ los100:"http://partagora.com/chicho306/los-100-dual-t4-65752" name:"T4";
 espa:"http://ver-peliculas.org//peliculas/en-espanol/" name:"Idioma Español";
 estrenos:"http://ver-peliculas.org/peliculas/" name:"Ultimos Estrenos";
 
-aron:"http://partagora.com/aron/aventura-72044" name:"pelis";
-
-aron:"http://partagora.com/aron/accion-71792" name:"pelis";
-
+aron:"http://partagora.com/aron/aventura-72044" name:"aventura;
+aron:"http://partagora.com/aron/drama-romance-71823" name:"drama;
+aron:"http://partagora.com/aron/accion-71792" name:"accion";
+aron:"http://partagora.com/aron/animados-71625" name:"animdos";
