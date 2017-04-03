@@ -13,4 +13,5 @@ cineinfantil:"cineinfantil" src="http://copiapop.com/rakel53/cine-infantil-47525
 
 romantica:"romantica" src="http://copiapop.com/martikue/peliculas-romanticas-94905";
 
+pelis3d:"pelis3d" src="http://copiapop.com/perales/peliculas-3d-52423/gallery,1,1";
 
