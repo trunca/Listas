@@ -1,6 +1,6 @@
 
 <item>
-<title>ARON PELIS</title>
+<title>aventura</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
@@ -12,7 +12,7 @@
 		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
         ]]></listrepeat>
 <expres>aron:"(.*?)" name:"(.*?)";</expres>
-<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagoraaron.txt</page>
+<page>http://partagora.com/aron/aventura-72044</page>
 <cookieJar></cookieJar>
 </regex>
 
