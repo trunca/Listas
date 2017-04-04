@@ -24,7 +24,7 @@ los100:"http://partagora.com/chicho306/los-100-dual-t4-65752" name:"T4";
 espa:"http://ver-peliculas.org//peliculas/en-espanol/" name:"Idioma Español";
 estrenos:"http://ver-peliculas.org/peliculas/" name:"Ultimos Estrenos";
 
-ave:"http://partagora.com/aron/aventura-72044" name:"aventura;
-dra:"http://partagora.com/aron/drama-romance-71823" name:"drama;
-acci:"http://partagora.com/aron/accion-71792" name:"accion";
-ani:"http://partagora.com/aron/animados-71625" name:"animdos";
+aron1:"http://partagora.com/aron/aventura-72044" name:"aventura;
+aron2:"http://partagora.com/aron/drama-romance-71823" name:"drama;
+aron3:"http://partagora.com/aron/accion-71792" name:"accion";
+aron4:"http://partagora.com/aron/animados-71625" name:"animdos";
