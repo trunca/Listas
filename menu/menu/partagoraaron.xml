@@ -1,6 +1,6 @@
 
 <item>
-<title>cine</title>
+<title>cine1</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
@@ -54,7 +54,7 @@
 		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
 		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
         ]]></listrepeat>
-<expres>aron1:"(.*?)" name:"(.*?)";</expres>
+<expres>aron2:"(.*?)" name:"(.*?)";</expres>
 <page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagoraaron.txt</page>
 <cookieJar></cookieJar>
 </regex>
@@ -87,7 +87,7 @@
 	
 	
 	<item>
-<title>cine2</title>
+<title>cine3</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
@@ -130,7 +130,7 @@
 </item>
 	
 <item>
-<title>cine2</title>
+<title>cine4</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
@@ -170,4 +170,4 @@
 <cookieJar></cookieJar>
 </regex>
 
-</item>	
+</item>
