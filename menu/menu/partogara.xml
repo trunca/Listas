@@ -41,5 +41,48 @@
 
 </item>
 	
+	<item>
+<title>TEMPORADA 3</title>
+<link>$doregex[makelist3]</link>
+
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>[makelist3.param2]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+        ]]></listrepeat>
+<expres>alli:"(.*?)" name:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagorahawaii.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist3.param1]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://partagora.com/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://partagora.com/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+
+</item>
+	
 	
 
