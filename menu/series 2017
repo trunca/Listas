@@ -1,5 +1,5 @@
 <item>
-<title>TEMPORADA 3</title>
+<title>ALLI ABAJO</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
@@ -43,13 +43,7 @@
 
 
 
-<item>
-<title>ALLI ABAJO T3</title>
-<link>http://Ignoreme</link>
-<externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partogara.xml</externallink>
-<thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
-<fanart>http://i.imgur.com/ThxGCxm.jpg</fanart> 
-</item>
+
 
 <item>
 <title>HAWAII 5-0 T7</title>
