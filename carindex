@@ -18,14 +18,6 @@
 <fanart>http://i.imgur.com/ThxGCxm.jpg</fanart> 
 </item>
  
- 
-<item>
-<title>[COLOR lime]SERIES1[/COLOR] </title>
-<link>http://Ignoreme</link>
-<externallink>https://raw.githubusercontent.com/trutorangvice/Listas/menu/master/copia.xml</externallink>
-<thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
-<fanart>http://i.imgur.com/ThxGCxm.jpg</fanart> 
-</item>
 
 <item>
 <title>[COLOR lime]DOCUMENTALES[/COLOR]</title>
@@ -36,3 +28,9 @@
 </item>
 
 
+<item>
+<title>[COLOR lime]MUSICA[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>http://i.imgur.com/aYKmxRv.png</thumbnail>
+<fanart>http://i.imgur.com/peJPGUg.png</fanart>
+<externallink>https://raw.githubusercontent.com/trutorangvice/Listas/menu/master/musica.xml</externallink>
