@@ -31,3 +31,5 @@ monk:"monk" src="http://copiapop.com/minhus/series-esp-monk-57380/gallery,1,2";
 aligenas:"aligenas" src="http://copiapop.com/minhus/documentales-alienigenas-caso-abierto-56477";
 
 house:"house" src="http://copiapop.com/minhus/series-esp-house-57174/gallery,1,2";
+
+tierra:"tierra" src="http://copiapop.com/habelote/el-hombre-y-la-tierra-fauna-iberica-43935";
