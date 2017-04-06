@@ -1,5 +1,5 @@
 <item>
-<title>CronicasMarcianas</title>
+<title>ElHombre y la Tierra</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
