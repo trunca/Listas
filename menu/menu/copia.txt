@@ -17,20 +17,10 @@ pelis3d:"pelis3d" src="http://copiapop.com/perales/peliculas-3d-52423/gallery,1,
 
 leyorden:"leyorden" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-7-66609";
 
-leyorden6:"leyorden6" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-6-66608";
+orden:"orden" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-6-66608";
 
 pixar:"pixar" src="http://copiapop.com/Koba1994/clasicos-de-pixar-95864/gallery,1,1";
 
-
-leyorden5:"leyorden5" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-5-66607";
-
-leyorde4:"leyorden4" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-4-66606";
-
-leyorden3:"leyorden3" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-3-66605";
-
-leyorden2:"leyorden2" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-2-66604";
-
-leyorden1:"leyorden1" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-1-66571";
 
 dracula:"dracula" src="http://copiapop.com/charliemedina/dracula-xxx-parody-46912/gallery,1,1";
 
