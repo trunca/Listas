@@ -1,0 +1,84 @@
+mision:"Mision Imposible SAGA" src="http://copiapop.com/Koba1994/saga-mision-imposible-60320/list,1,1";
+
+resident:"Resident Evil SAGA" src="http://copiapop.com/Koba1994/saga-resident-evil-59329/list,1,1";
+
+padrino:"El Padrino SAGA" src="http://copiapop.com/Koba1994/trilogia-el-padrino-57597/list,1,1";
+
+scream:"Scream SAGA" src="http://copiapop.com/Koba1994/saga-scream-56885/list,1,1";
+
+piratas:"Piratas del Caribe SAGA" src="http://copiapop.com/Koba1994/saga-piratas-del-caribe-56883/list,1,1";
+
+austin:"Austin Powers SAGA" src="http://copiapop.com/Koba1994/trilogia-austin-powers-56842/list,1,1";
+
+scary:"Scary Movie SAGA" src="http://copiapop.com/Koba1994/saga-scary-movie-56743/list,1,1";
+
+critters:"Critters SAGA" src="http://copiapop.com/Koba1994/saga-critters-55908/list,1,1";
+
+evil:"Evil Devil SAGA" src="http://copiapop.com/Koba1994/saga-evil-dead-55627/list,1,1";
+
+hallo:"Hallowen SAGA" src="http://copiapop.com/Koba1994/saga-halloween-54622/list,1,1";
+
+torrente:"Torrente SAGA" src="http://copiapop.com/Koba1994/saga-torrente-54615/list,1,1";
+
+mad:"Mad Max SAGA" src="http://copiapop.com/Koba1994/saga-mad-max-54512/list,1,1";
+
+blade:"Blade SAGA" src="http://copiapop.com/Koba1994/trilogia-blade-47397/list,1,1";
+
+spider:"Spider-Man SAGA" src="http://copiapop.com/Koba1994/saga-spider-man-47395/list,1,1";
+
+x:"X-Men SAGA" src="http://copiapop.com/Koba1994/saga-x-men-47394/list,1,1";
+
+bat:"Batman SAGA" src="http://copiapop.com/Koba1994/tetralogia-batman-clasica-47387/list,1,1";
+
+sup:"Superman SAGA" src="http://copiapop.com/Koba1994/saga-superman-clasica-47386/list,1,1";
+
+pesadilla:"Pesadilla en Elm Street SAGA" src="http://copiapop.com/Koba1994/saga-pesadilla-en-elm-street-42294/list,1,1";
+
+13:"Viernes 13 SAGA" src="http://copiapop.com/Koba1994/saga-viernes-13-42293/list,1,1";
+
+jura:"Jurassic Park SAGA" src="http://copiapop.com/Koba1994/saga-jurassic-park-42292/list,1,1";
+
+ter:"Terminator SAGA" src="http://copiapop.com/Koba1994/saga-terminator-42279/list,1,1";
+
+alien:"Alien y Depredator SAGA" src="http://copiapop.com/Koba1994/saga-alien-y-predator-42199/list,1,1";
+
+conan:"Conan SAGA" src="http://copiapop.com/Koba1994/saga-conan-42186/list,1,1";
+
+robo:"Robocop SAGA" src="http://copiapop.com/Koba1994/trilogia-robocop-42185/list,1,1";
+
+jungla:"Jungla de Cristal SAGA" src="http://copiapop.com/Koba1994/saga-la-jungla-de-cristal-42184/list,1,1";
+
+regreso:"Regreso al Futuro SAGA" src="http://copiapop.com/Koba1994/trilogia-regreso-al-futuro-42182/list,1,1";
+
+momia:"La Momia SAGA" src="http://copiapop.com/Koba1994/saga-la-momia-42108/list,1,1";
+
+indi:"Indiana Jones SAGA" src="http://copiapop.com/Koba1994/saga-indiana-jones-41961/list,1,1";
+
+anillo:"El Señor de los Anillos SAGA" src="http://copiapop.com/Koba1994/saga-el-senor-de-los-anillos-v-extendida-41964/list,1,1";
+
+trek:"Star Trek SAGA" src="http://copiapop.com/Koba1994/saga-star-trek-39908/list,1,1";
+
+dune:"Dune SAGA" src="http://copiapop.com/Koba1994/saga-dune-68108/list,1,1";
+
+simio:"El Planeta de los Simios SAGA" src="http://copiapop.com/Koba1994/saga-el-planeta-de-los-simios-68107/list,1,1";
+
+holly:"Superdetective en Hollywood SAGA" src="http://copiapop.com/Koba1994/trilogia-superdetective-en-hollywood-66248/list,1,1";
+
+harry:"Harry el Sucio SAGA" src="http://copiapop.com/Koba1994/saga-harry-el-sucio-64776/list,1,1";
+
+Bourne:"Bourne SAGA" src="http://copiapop.com/Koba1994/saga-de-bourne-64775/list,1,1";
+
+arma:"Arma Letal SAGA" src="http://copiapop.com/Koba1994/saga-arma-letal-64773/list,1,1";
+
+chan:"Jackie Chan SAGA" src="http://copiapop.com/slek/jackie-58128/list,1,2";
+
+merce:"Los Mercenarios SAGA" src="http://copiapop.com/Txarly/los-mercenarios-saga-65152/list,1,1";
+
+kid:"Karate Kid SAGA" src="http://copiapop.com/Tercero/karate-kid-1-2-3-46261/list,1,1";
+
+aldione:"Disfruta de Mis Pelis" src="http://copiapop.com/Catoal/aldiones-movies-81956/list,1,5";
+
+250:"Mi Elección " src="http://copiapop.com/Txarly/250-peliculas-famosas-76552/list,1,11";
+
+prue:"Mi Elección " src="http://kbagi.com/Wolfers18/the-patriot-2000-brrip-720p-447986/list,1,1";
+
