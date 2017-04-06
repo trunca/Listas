@@ -29,3 +29,5 @@ secretsauna:"secretsauna" src="http://copiapop.com/charliemedina/secret-sauna-se
 monk:"monk" src="http://copiapop.com/minhus/series-esp-monk-57380/gallery,1,2";
 
 aligenas:"aligenas" src="http://copiapop.com/minhus/documentales-alienigenas-caso-abierto-56477";
+
+house:"house" src="http://copiapop.com/minhus/series-esp-house-57174/gallery,1,2";
