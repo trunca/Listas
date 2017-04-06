@@ -17,7 +17,7 @@ pelis3d:"pelis3d" src="http://copiapop.com/perales/peliculas-3d-52423/gallery,1,
 
 leyorden:"leyorden" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-7-66609";
 
-orden:"orden" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-6-66608";
+capitulo:"capitulo" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-6-66608";
 
 pixar:"pixar" src="http://copiapop.com/Koba1994/clasicos-de-pixar-95864/gallery,1,1";
 
