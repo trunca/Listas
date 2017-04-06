@@ -1,5 +1,5 @@
 <item>
-<title>ElHombre y la Tierra</title>
+<title>Impacto tv</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -10,7 +10,7 @@
         <fanart>https://diariodelcineasta.com/wp-content/uploads/2016/04/House-of-cards.png</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/garroteca/cronicas-marcianas-1979-60568</page>
+<page>http://diskokosmiko.mx/trivianita/impacto-tv-63709/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
