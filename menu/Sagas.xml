@@ -199,7 +199,7 @@
 </item>
 
 <item>
-<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Los Hermanos Max **</title>
+<title>** Los Hermanos Max **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -366,7 +366,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime][makelist.param2][/COLOR] **</title>
+        <title>** [makelist.param2] **</title>
         <link>$doregex[getUrl]</link>
 		<thumbnail>http://pre04.deviantart.net/7a8f/th/pre/f/2010/064/3/a/resident_evil_saga_poster_by_the_hero_of_time28.jpg</thumbnail>
 		<fanart>https://azgamesweb.files.wordpress.com/2014/05/resident-evil-characters.jpg</fanart>
@@ -3230,40 +3230,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>http://www.publico.es/uploads/2016/06/28/original_5772280837664.jpg</fanart>
 </item>
 
-<item>
-<title>** Divergente **</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title> ** [makelist.param3] **</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>http://image9.casadellibro.com/m/ig/9/2358509.jpg</thumbnail>
-		<fanart>http://piropodeamor.com/Files/images/produccion/339_h.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/pacharico/saga-divergente-33482</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/pacharico/saga-divergente-33482</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://image9.casadellibro.com/m/ig/9/2358509.jpg</thumbnail>
-<fanart>http://piropodeamor.com/Files/images/produccion/339_h.jpg</fanart>
-</item>
+
