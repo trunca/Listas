@@ -198,46 +198,9 @@
 <fanart>http://www.mubis.es/media/users/5027/14228/saga-a-todo-gas-dvd-blu-ray-original.jpg</fanart>
 </item>
 
-<item>
-<title>** Los Hermanos Max **</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>** [makelist.param2]**</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://images-na.ssl-images-amazon.com/images/I/71Un0R6IEIL._SY445_.jpg</thumbnail>
-		<fanart>http://4.bp.blogspot.com/-hko3nZsZMlM/Tyu2-pEXe_I/AAAAAAAABgw/MG9-ulW0tzw/s1600/Annex+-+Marx+Brothers_14.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/ddolfia/hermanos-max-peliculas-45174/list,1,1</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/ddolfia/hermanos-max-peliculas-45174/list,1,1</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/I/71Un0R6IEIL._SY445_.jpg</thumbnail>
-<fanart>http://4.bp.blogspot.com/-hko3nZsZMlM/Tyu2-pEXe_I/AAAAAAAABgw/MG9-ulW0tzw/s1600/Annex+-+Marx+Brothers_14.jpg</fanart>
-</item>
 
 <item>
-<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Matrix **</title>
+<title> ** Matrix **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
