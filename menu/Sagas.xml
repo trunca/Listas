@@ -3232,3 +3232,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+	
+<item>
+                     <title>Tve 1</title>
+                     <link>http://cdn2.verliga.pw/live/tve1/index.m3u8</link>
+                     <thumbnail>http://www.miteleonline.com/wp-content/images/tve1.jpg</thumbnail>
+                     </item>
