@@ -3194,11 +3194,172 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<item>
-<embed>true</embed>
- <thumbnail>http://www.globalmest.com/wp-content/uploads/2015/08/ten3.png</thumbnail>
- <title>Ten</title>
-  <referer>http://cinestrenostv.tv/canales/envivo/ten.html</referer>
-  <link>http://www.ponlatv.net/channel.php?file=105671&amp;width=650&amp;height=400&amp;autostart=true</link>
- <userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</userAgent>
- </item>
+<title>DEPORTES</title>
+            
+                  <item>
+                     <thumbnail>http://www.movistarplus.es/estaticos/images/canales/png/movistarmotogp.png</thumbnail>
+                     <title>M+ Moto GP</title>
+                     <link>http://edge5.livesports.pw/live/vermotogpmea6b484f0907aac/index.m3u8</link>
+                  </item>
+                  <item>
+                     <embed>true</embed>
+                     <thumbnail>http://www.movistarplus.es/estaticos/images/canales/png/movistarmotogp.png</thumbnail>
+                     <title>M+ Moto GP opc.2</title>
+                     <referer>http://cinestrenostv.tv/canales/envivo/motogp.html</referer>
+                     <link>http://www.dinostream.pw/channel.php?file=105717&amp;width=650&amp;height=400&amp;autostart=true</link>
+                     <userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</userAgent>
+                  </item>
+                  <item>
+                     <thumbnail>http://www1.plus.es/estaticos/img-movistar/nueva-imagen/logo-f1.png</thumbnail>
+                     <title>M+ Formula 1</title>
+                     <link>http://edge6.livesports.pw/live/verfunoesp3d183864ebf1241/index.m3u8</link>
+                  </item>
+                  <item>
+                     <thumbnail>http://www1.movistarplus.es/estaticos/img-movistar/nueva-imagen/logo-partidazo.png</thumbnail>
+                     <title>M+ El Partidazo</title>
+                     <link>http://edge2.livesports.pw/live/verpartidazo04b41ff741e2d/index.m3u8</link>
+                  </item>
+                  <item>
+                     <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Movistar_F%C3%BAtbol.svg/200px-Movistar_F%C3%BAtbol.svg.png</thumbnail>
+                     <title>M+ Futbol</title>
+                     <link>http://edge7.livesports.pw/live/verfutbolespmd8d7b9cbe039/index.m3u8</link>
+                  </item>
+                  <item>
+                     <embed>true</embed>
+                     <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/c/c3/MovistarDeportes1.png/revision/latest?cb=20160818140254</thumbnail>
+                     <title>M+ Deportes 1</title>
+                     <referer>http://cinestrenostv.tv/canales/envivo/plusdeportes.html</referer>
+                     <link>http://www.ponlatv.net/channel.php?file=105827&amp;width=650&amp;height=400&amp;autostart=true</link>
+                     <userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</userAgent>
+                  </item>
+                  <item>
+                     <thumbnail>http://verdirectotv.com/logos/deportes2.png</thumbnail>
+                     <title>M+ Deportes 2</title>
+                     <link>http://edge5.livesports.pw/live/verdeportedosm00b21af0a5a/index.m3u8</link>
+                  </item>
+                  <item>
+                     <thumbnail>http://santandergolftour.es/web/templates/rt_xenon/custom/images/patrocinios/movistargolf.png</thumbnail>
+                     <title>M+ Golf</title>
+                     <link>http://cdn7.verliga.pw/live/golf/index.m3u8</link>
+                  </item>
+                  <item>
+                     <thumbnail>https://1.bp.blogspot.com/-DTW-Vx9ou9c/WEqKv7I8JKI/AAAAAAAABlI/6zGZbNdAOdAtHpQYkOxnPCsywhtLEotDwCEw/s1600/BeIN_Sports.png</thumbnail>
+                     <title>Bein Sport</title>
+                     <link>http://edge6.livesports.pw/live/verbeinsportae541f9250d4e/index.m3u8</link>
+                  </item>
+                  <item>
+                     <embed>true</embed>
+                     <thumbnail>http://09stream.com/img/beinlaliga.png</thumbnail>
+                     <title>Bein Sport La Liga</title>
+                     <referer>http://verplusonline.com/canales/ligaes.php</referer>
+                     <link>http://www.playerhd1.pw/channel.php?file=111&amp;width=650&amp;height=400&amp;autostart=true</link>
+                     <userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</userAgent>
+                  </item>
+                  <item>
+                     <thumbnail>http://www.topiberian.com/images/A-fotos-noticias/2015/10/myThumbs/teledeporte-tdp.jpg</thumbnail>
+                     <title>Teledeporte</title>
+                     <link>http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl1-tdplv3aomgl1/_definst_/live.m3u8</link>
+                  </item>
+                  <item>
+                     <thumbnail>http://powercupalevin.com/public/images/gol-t.png</thumbnail>
+                     <title>Gol Televisón</title>
+                     <link>http://88.148.69.129:9090/play/a01d</link>
+                  </item>
+                  <item>
+                     <embed>true</embed>
+                     <thumbnail>http://powercupalevin.com/public/images/gol-t.png</thumbnail>
+                     <title>Gol Televisón Opc.2</title>
+                     <referer>http://verdirectotv.com/tv/deportes2/golnuevo.html</referer>
+                     <link>http://www.dinostream.pw/channel.php?file=105770&amp;width=650&amp;height=400&amp;autostart=true</link>
+                     <userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</userAgent>
+                  </item>
+                  <item>
+                     <thumbnail>http://cdn8.staztic.com/app/a/4766/4766724/la-liga-tv-official-12-b-512x250.jpg</thumbnail>
+                     <title>La Liga TV</title>
+                     <link>http://edge5.livesports.pw/live/verbarliga42d2c0aa34b418d/index.m3u8</link>
+                  </item>
+                  <item>
+                     <embed>true</embed>
+                     <thumbnail>http://www.f-esp.com/wp-content/uploads/2016/08/laliga-v-16-9.jpg</thumbnail>
+                     <title>La Liga 123</title>
+                     <referer>http://cinestrenostv.tv/canales/envivo/laliga123multi1.html</referer>
+                     <link>http://www.dinostream.pw/channel.php?file=151&amp;width=650&amp;height=400&amp;autostart=true</link>
+                     <userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</userAgent>
+                  </item>
+                  <item>
+                     <embed>true</embed>
+                     <thumbnail>http://3.bp.blogspot.com/-sdYMHdoenl4/VksecfPuq8I/AAAAAAAAAGQ/XP2T9hW3KlU/s1600/bein-1.png</thumbnail>
+                     <title>Bein Sport FR 1 HD</title>
+                     <referer>http://verplusonline.com/canales/beinsport3fr.php</referer>
+                     <link>http://www.playerhd2.pw/channel.php?file=122&amp;width=650&amp;height=400&amp;autostart=true</link>
+                     <userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</userAgent>
+                  </item>
+                  <item>
+                     <embed>true</embed>
+                     <thumbnail>http://3.bp.blogspot.com/-X28wcyKEmyA/Vl-TLcw3MEI/AAAAAAAAAIo/AZGqtQkviSM/s1600/index.png</thumbnail>
+                     <title>Bein Sport FR 2 HD</title>
+                     <referer>http://verplusonline.com/canales/beinsport2fr.php</referer>
+                     <link>http://www.playerhd1.pw/channel.php?file=123&amp;width=650&amp;height=400&amp;autostart=true</link>
+                     <userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</userAgent>
+                  </item>
+                  <item>
+                     <thumbnail>http://vercanalestv.com/logos/eurosport1.png</thumbnail>
+                     <title>Eurosport</title>
+                     <link>http://edge6.livesports.pw/live/vereurosportsespd6d28a0c0/index.m3u8</link>
+                  </item>
+                  <item>
+                     <thumbnail>http://latelete.tv/img/eurosport2.png</thumbnail>
+                     <title>Eurosport 2</title>
+                     <link>http://edge7.livesports.pw/live/vereurosportsdosespa0a934/index.m3u8</link>
+                  </item>
+                  <item>
+                     <embed>http://www.embeducaster.com/static/scripts/fplayer.swf</embed>
+                     <thumbnail>https://cdn-0.motorsport.com/static/custom/ms_tv_black.jpg</thumbnail>
+                     <isHost>true</isHost>
+                     <title>Motorsport TV</title>
+                     <link>http://www.embeducaster.com/embedplayer/motopilas/1/650/500</link>
+                  </item>
+                  <item>
+                     <thumbnail>https://pbs.twimg.com/profile_images/413955347976425473/u5MiytTz_400x400.jpeg</thumbnail>
+                     <title>PR Motor TV</title>
+                     <link>http://stream-11.vty.dailymotion.com/41/dm/1/x3n8aqy/live.isml/events(live-1490944881)/live-audio=128000-video=1260000.m3u8</link>
+                  </item>
+                  <item>
+                     <thumbnail>http://4.bp.blogspot.com/-9Bz2ORzqQEU/VbpAqSx0MNI/AAAAAAAAEVM/QL30EKi7BaE/s1600/BAR%25C3%2587A_TV.jpg</thumbnail>
+                     <title>Barsa TV</title>
+                     <link>http://cdn2.elitegol.xyz/verliga/2/index.m3u8</link>
+                  </item>
+                  <item>
+                     <thumbnail>http://cdn.20m.es/img2/recortes/2013/12/04/149729-588-291.jpg</thumbnail>
+                     <title>Real Madrid TV</title>
+                     <link>http://rmtvlive-lh.akamaihd.net:80/i/rmtv_1@154306/index_1000_av-p.m3u8</link>
+                  </item>
+                  <item>
+                     <thumbnail>http://static.tycsports.com/imagesOnRFS/noticias/2014/12/05/q3_tile_crop1417797273427.jpg</thumbnail>
+                     <title>TyC Sport</title>
+                     <link>http://clairinlive-a.akamaihd.net/dc-1/live/hls/p/1885581/e/1_8xzo6fux/t/YO19xXbHgW_22sNZezlmTg/master.m3u8</link>
+                  </item>
+                  <item>
+                     <thumbnail>https://upload.wikimedia.org/wikipedia/ca/e/ec/Esport3_logo2011.png</thumbnail>
+                     <title>Esport 3</title>
+                     <link>http://ccma-tva-es-abertis-live.hls.adaptive.level3.net/es/ngrp:es3_web/playlist.m3u8</link>
+                  </item>
+                  <item>
+                     <embed>http://www.janjuaplayer.com/resources/scripts/eplayer.swf</embed>
+                     <thumbnail>https://www.la92.com/wp-content/uploads/2016/06/UFC-Logo-640x370.jpg</thumbnail>
+                     <isHost>true</isHost>
+                     <title>UFC</title>
+                     <link>http://www.janjuaplayer.com/embedplayer/ufcmaloso/1/600/400</link>
+                  </item>
+                  <item>
+                     <thumbnail>https://i.ytimg.com/vi/NKnpT16csQQ/maxresdefault.jpg</thumbnail>
+                     <title>Caza y Pesca</title>
+                     <link>http://cdn5.elitegol.xyz/verliga/15/index.m3u8</link>
+                  </item>
+                  <item>
+                     <thumbnail>https://www.thelogodb.com/images/media/logo/xxxuts1436895323.png</thumbnail>
+                     <title>TOROS</title>
+                     <link>http://edge14.livesports.pw/live/vertorotvd2330b2b9138e537/index.m3u8</link>
+                  </item>
+               </stations>
+            </item>
