@@ -3194,3 +3194,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
+<item>
+<embed>true</embed>
+ <thumbnail>http://www.globalmest.com/wp-content/uploads/2015/08/ten3.png</thumbnail>
+ <title>Ten</title>
+  <referer>http://cinestrenostv.tv/canales/envivo/ten.html</referer>
+  <link>http://www.ponlatv.net/channel.php?file=105671&amp;width=650&amp;height=400&amp;autostart=true</link>
+ <userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</userAgent>
+ </item>
