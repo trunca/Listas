@@ -33,3 +33,5 @@ aligenas:"aligenas" src="http://copiapop.com/minhus/documentales-alienigenas-cas
 house:"house" src="http://copiapop.com/minhus/series-esp-house-57174/gallery,1,2";
 
 tierra:"tierra" src="http://copiapop.com/habelote/el-hombre-y-la-tierra-fauna-iberica-43935";
+
+comedia:"comedia" src="http://copiapop.com/rakel53/cine-comedia-47641";
