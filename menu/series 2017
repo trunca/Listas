@@ -42,7 +42,7 @@
 </item>
 
 <item>
-<title>IFAMILY T1</title>
+<title>IFAMILY</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
