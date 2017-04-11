@@ -7,8 +7,8 @@
   <listrepeat><![CDATA[
         <title>[makelist3.param2]</title>
         <link>$doregex[makelist]</link>
-		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
-		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+		<icon>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<icon>http://i.imgur.com/It5R9E1.jpg</fanart>
         ]]></listrepeat>
 <expres>alli:"(.*?)" name:"(.*?)";</expres>
 <page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagorahawaii.txt</page>
@@ -20,8 +20,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
-		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+		<icon>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<icon>http://i.imgur.com/It5R9E1.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>[makelist3.param1]/list,1,15</page>
