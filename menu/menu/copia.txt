@@ -1,6 +1,6 @@
 expediente:"expedientex" src="http://copiapop.com/Koba1994/expediente-x-miniserie-45569";
 7vidas:"7vidas" src="http://copiapop.com/Azofaifa/7-vidas-37525/gallery,1,1";
-
+humano:"humano" src="http://copiapop.com/Koba1994/erase-una-vez-el-cuerpo-humano-36818";
 tour:"THE GRAND TOUR 2016" src="http://copiapop.com/JOE221277/the-grand-tour-2016-m720p-sa-87386";
 
 musicales:"musicales" src="http://copiapop.com/Koba1994/cine-musical-97455";
