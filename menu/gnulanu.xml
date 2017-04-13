@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>Buscador de Pelis y Series</title>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[makelist.param2][/COLOR]</title>
+          <link>$doregex[makelist2]</link>
+		  <thumbnail></thumbnail>
+   ]]></listrepeat>
+   <expres>href="(http://gnula.nu/(.+?))"</expres>
+   <page>https://www.bing.com/search?q=$doregex[search]+site%3Agnula.nu</page>
+   <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar Pelicula / Serie', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]..([makelist2.param2])</title>
+<link>$doregex[url]/$doregex[id2]/v.flv</link>
+<regex>
+<name>url</name>
+<expres>vplayer[\w\W\s]{0,8}src="(.*?)\/i</expres>
+<page>http://streamin.to/embed-[makelist2.param1]-740x360.html</page>	 
+<referer>http://streamin.to</referer>
+</regex>
+<regex>
+<name>id2</name>
+<expres>image\|[\w\W\s]{0,3}\|(.*?)\|file</expres>
+<page>http://streamin.to/embed-[makelist2.param1]-740x360.html</page>	 
+<referer>http://streamin.to</referer>
+</regex>
+<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>http://streamin.to/(.*?)"</expres>
+<page>[makelist.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<Thumbnail>http://i.imgur.com/ENJjRol.png</thumbnail>
+<fanart>http://butacaancha.com/wp-content/uploads/2013/06/apolo.jpg</fanart>
+</item>
