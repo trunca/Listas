@@ -13,7 +13,7 @@
 <fanart>[makelist2.param3]</fanart>    
 ]]></listrepeat>
 <expres>class="Ntooltip" href="(.*?)">(.*?)<[\w\W\s]{0,29}src="(.*?)"</expres>
-<page>http://gnula.se/capitulos/alli-abajo/</page>
+<page>http://gnula.se/lista-de-series/A</page>
 <referer>http://gnula.nu</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
 <cookieJar>$doregex[createCFCookie]</cookieJar>
