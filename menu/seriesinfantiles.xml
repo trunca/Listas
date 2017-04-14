@@ -62,3 +62,41 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://i.imgur.com/aYKmxRv.png</thumbnail>
 <fanart>http://i.imgur.com/peJPGUg.png</fanart>
 </item>	
+
+<item>
+<title>**La Patrulla Canina**</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> ** [makelist.param3]**</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://asknetworth.com/wp-content/uploads/2013/10/sacha-baron-cohen-net-worth2.jpg</thumbnail>
+		<fanart>http://es.web.img3.acsta.net/medias/nmedia/19/00/82/40/20637562.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/catoal/la-patrulla-canina-30763/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/fraguas-fraguas/sacha-baron-cohen-34997/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://asknetworth.com/wp-content/uploads/2013/10/sacha-baron-cohen-net-worth2.jpg</thumbnail>
+<fanart>http://es.web.img3.acsta.net/medias/nmedia/19/00/82/40/20637562.jpg</fanart>
+</item>
