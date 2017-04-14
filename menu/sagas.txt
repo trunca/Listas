@@ -82,3 +82,5 @@ aldione:"Disfruta de Mis Pelis" src="http://copiapop.com/Catoal/aldiones-movies-
 
 prue:"Mi Elección " src="http://kbagi.com/Wolfers18/the-patriot-2000-brrip-720p-447986/list,1,1";
 
+raiser:"Hellraiser SAGA" src="http://copiapop.com/Koba1994/saga-hellraiser-92566/gallery,1,1";
+
