@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<channel>
-      <name>TAQUILLAS CINE 1</name>
+<item>
+      <title>TAQUILLAS CINE 1</title>
   <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
 <fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
 <link>http://ignoreme</link>
    <externallink>https://pastebin.com/raw/qbUi5PHL</externallink>
-</channel>
+</item>
 
- <channel>
-      <name>TAQUILLAS CINE 2</name>
+ <item>
+      <title>TAQUILLAS CINE 2</title>
   <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
 <fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
 <link>http://ignoreme</link>
    <externallink>https://pastebin.com/raw/LiLAQU69</externallink>
-</channel>
-  </channels>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+</item>
+  
 
 
- <channel>
-      <name>TAQUILLAS CINE 3</name>
+
+ <item>
+      <title>TAQUILLAS CINE 3</title>
   <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
 <fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
 <link>http://ignoreme</link>
    <externallink>https://pastebin.com/raw/YADfCBR9</externallink>
-</channel>
-  </channels>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+  </item>
 
 
- <channel>
-      <name>TAQULLA CINE 4 VARIADAS DE AÑOS</name>
+
+ <item>
+      <title>TAQULLA CINE 4 VARIADAS DE AÑOS</title>
   <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
 <fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
 <link>http://ignoreme</link>
    <externallink>https://pastebin.com/raw/pN1zmwvr</externallink>
-</channel>
-  </channels>
+
+  </item>
 
 <item>
 <title>PELICULAS ESTRENO</title>
