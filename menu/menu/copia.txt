@@ -37,3 +37,7 @@ tierra:"tierra" src="http://copiapop.com/habelote/el-hombre-y-la-tierra-fauna-ib
 comedia:"comedia" src="http://copiapop.com/rakel53/cine-comedia-47641";
 
 caso:"caso" src="http://copiapop.com/topalante/caso-cerrado-82879/gallery,1,1";
+
+rastro1:"rastro1" src="http://copiapop.com/topalante/sin-rastro-t-1-68079";
+
+sin:"sin" src="http://copiapop.com/topalante/sin-rastro-t-2-68080";
