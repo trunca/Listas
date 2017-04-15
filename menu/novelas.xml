@@ -1,3 +1,7 @@
+
+<item> 
+<title>Novelas</title>
+<link>$doregex[makelist4]</link>
 <regex>
 <name>makelist4</name>
 <listrepeat><![CDATA[
