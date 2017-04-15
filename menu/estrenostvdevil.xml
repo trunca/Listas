@@ -3,26 +3,8 @@
 <item>
 <title>A TODO GAS 8</title>
 <link>http://ignora.me</link>
-<externallink>http://streamcloud.eu/iwhsedrvf5pr</externallink>
-<fanart></fanart>
-<thumbnail>http://orig07.deviantart.net/5efb/f/2017/092/2/b/d3_by_wandergrafi-db4fzc9.png</thumbnail>
+<urlsolve>http://streamcloud.eu/iwhsedrvf5pr</urlsolve>
 </item>
 
 
-<item>
-<title>A TODO GAS 8</title>
-<link>http://streamcloud.eu/iwhsedrvf5pr</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://streamcloud.eu/76jdz15cxn7h'):
-    import urlresolver
-    u = urlresolver.resolve(url)
-    return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://pics.filmaffinity.com/tadeo_jones_y_el_sotano_maldito_s-443081891-large.jpg</thumbnail>
-<fanart>http://pics.filmaffinity.com/tadeo_jones_y_el_sotano_maldito_s-443081891-large.jpg</fanart>
-</item>
+
