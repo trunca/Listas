@@ -1,4 +1,10 @@
-
+<item>
+<title>amarte asi frijolito</title>
+<link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/frijolitonovela.xml</externallink>
+<thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
+<fanart>http://i.imgur.com/ThxGCxm.jpg</fanart> 
+</item>
 <item> 
 <title>www.novelashdgratis.tv/</title>
 <link>$doregex[makelist4]</link>
@@ -56,10 +62,4 @@
 </regex>
 </item>
  
- <item>
-<title>amarte asi frijolito</title>
-<link>http://Ignoreme</link>
-<externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/frijolitonovela.xml</externallink>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
+
