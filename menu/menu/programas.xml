@@ -143,17 +143,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 	
-<item>
-<title> UnDosTres </title>
-<link>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/undostres.xml</link>
-<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/6c/64/a5/6c64a528dbe933203356c7f0852be038.jpg</thumbnail>
-<fanart>http://img.rtve.es/v/1384480?w=1180&preview=1335211466205.jpg</fanart>
-<year></year>
-<info></info>
-</item>
-	
+
 	<item>
-      <title>UnDosTres</title>
+      <title>UnDosTresL</title>
   <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
 <fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
 <link>http://ignoreme</link>
