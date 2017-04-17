@@ -7,45 +7,6 @@
 <link>http://ignoreme</link>
    <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/estrenostvdevil.xml</externallink>
 </item>
-<item>
-      
-      <title>TAQUILLAS CINE 1</title>
-  <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
-<fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
-<link>http://ignoreme</link>
-   <externallink>https://pastebin.com/raw/qbUi5PHL</externallink>
-</item>
-
- <item>
-      <title>TAQUILLAS CINE 2</title>
-  <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
-<fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
-<link>http://ignoreme</link>
-   <externallink>https://pastebin.com/raw/LiLAQU69</externallink>
-</item>
-  
-
-
-
- <item>
-      <title>TAQUILLAS CINE 3</title>
-  <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
-<fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
-<link>http://ignoreme</link>
-   <externallink>https://pastebin.com/raw/YADfCBR9</externallink>
-
-  </item>
-
-
-
- <item>
-      <title>TAQULLA CINE 4 VARIADAS DE AÑOS</title>
-  <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
-<fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
-<link>http://ignoreme</link>
-   <externallink>https://pastebin.com/raw/pN1zmwvr</externallink>
-
-  </item>
 
 <item>
 <title>PELICULAS ESTRENO</title>
@@ -153,4 +114,217 @@
 <externallink>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/comedia.xml</externallink>
 <thumbnail>http://i.imgur.com/ESsfjmY.png</thumbnail>
 <fanart>http://i.imgur.com/ThxGCxm.jpg</fanart> 
+</item>
+
+<item>
+      
+      <title>VARIADAS1 2016</title>
+  <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
+<fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://pastebin.com/raw/qbUi5PHL</externallink>
+</item>
+
+ <item>
+      <title>VARIADAS2 2016</title>
+  <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
+<fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://pastebin.com/raw/LiLAQU69</externallink>
+</item>
+  
+
+
+
+ <item>
+      <title>VARIADAS3 2016</title>
+  <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
+<fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://pastebin.com/raw/YADfCBR9</externallink>
+
+  </item>
+
+
+
+ <item>
+      <title>VARIADAS DE AÑOS</title>
+  <thumbnail>https://i1.wp.com/pixeldigitalcinema.com/wp-content/uploads/2015/09/taquilla.png?resize=1165%2C253</thumbnail>
+<fanart>http://adrianperales.com/wp-content/uploads/2015/01/3078493320_5fbf5f618d_o-e1427796408328.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://pastebin.com/raw/pN1zmwvr</externallink>
+
+  </item>
+
+<item>
+<title>ARON AVENTURA</title>
+<link>$doregex[makelist3]</link>
+
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>[makelist3.param2]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+        ]]></listrepeat>
+<expres>aron1:"(.*?)" name:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagoraaron.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist3.param1]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://partagora.com/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://partagora.com/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+
+</item>
+	
+<item>
+<title>ARON DRAMA</title>
+<link>$doregex[makelist3]</link>
+
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>[makelist3.param2]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+        ]]></listrepeat>
+<expres>aron2:"(.*?)" name:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagoraaron.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist3.param1]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://partagora.com/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://partagora.com/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+
+</item>
+	
+	
+	<item>
+<title>ARON ACCION</title>
+<link>$doregex[makelist3]</link>
+
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>[makelist3.param2]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+        ]]></listrepeat>
+<expres>aron3:"(.*?)" name:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagoraaron.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist3.param1]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://partagora.com/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://partagora.com/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+
+</item>
+	
+<item>
+<title>ARON ANIMADOS</title>
+<link>$doregex[makelist3]</link>
+
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>[makelist3.param2]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+        ]]></listrepeat>
+<expres>aron4:"(.*?)" name:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/partagoraaron.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist3.param1]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://partagora.com/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://partagora.com/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+
 </item>
