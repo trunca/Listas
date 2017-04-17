@@ -1,6 +1,6 @@
 
 <item> 
-<title>Novelas</title>
+<title>www.novelashdgratis.tv/</title>
 <link>$doregex[makelist4]</link>
 <regex>
 <name>makelist4</name>
