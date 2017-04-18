@@ -945,7 +945,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 </item>	
 
-<title>Ley y Orden T2</title>
+<title>Ley y OrdenT2</title>
 <link>$doregex[makelist2]</link>
 <regex>
   <name>makelist2</name>
@@ -1010,7 +1010,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 	
-<title>Ley y Orden T1</title>
+<title>Ley y OrdenT1</title>
 <link>$doregex[makelist2]</link>
 <regex>
   <name>makelist2</name>
