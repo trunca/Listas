@@ -5,4 +5,4 @@ Hawaii:"http://partagora.com/chicho306/hawaii-5-0-dual-t7-66007" name:"Temporada
 
 Narcos:"http://partagora.com/chicho306/narcos-t1-68963" name:"Temporada 1";
 
-alli:"http://partagora.com/chicho306/alli-abajo-t3-69673" name:"Temporada 3";
+alli:"http://partagora.com/aron/alli-abajo-t3-72956" name:"Temporada 3";
