@@ -956,7 +956,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 		<thumbnail>http://i.imgur.com/aYKmxRv.png</thumbnail>
 <fanart>http://i.imgur.com/peJPGUg.png</fanart>
         ]]></listrepeat>
-<expres>capitulo:"(.*?)" src="(.*?)"</expres>
+<expres>capitulo2:"(.*?)" src="(.*?)"</expres>
 <page>https://raw.githubusercontent.com/trutorangvice/Listas/master/menu/menu/copia.txt</page>
 <cookieJar></cookieJar>
 </regex>
