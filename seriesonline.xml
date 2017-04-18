@@ -1,0 +1,51 @@
+<item>
+<title>IFAMILY</title>
+<link>$doregex[makelist3]</link>
+
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title> [makelist3.param2]</title>
+        <link>$doregex[makelist]</link>
+		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+        ]]></listrepeat>
+<expres>arrow:"(.*?)" name:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/Carlesto/Series/master/seriesvarios.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://i.imgur.com/6wSJtK8.png</thumbnail>
+		<fanart>http://i.imgur.com/It5R9E1.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist3.param1]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://partagora.com/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://partagora.com/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://partagora.com/[makelist.param2]</page>
+<referer>http://partagora.com[makelist2.param1]/list,1,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.pelisyjuegos.com/wp-content/uploads/2016/04/arrow.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-0quWYRTOu_A/VfKORXIHupI/AAAAAAAAL14/BHdv4BYSJQw/s1600-r/arrow.png</fanart>
+</item>
