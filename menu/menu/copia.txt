@@ -49,3 +49,5 @@ capitulo2:"capitulo2" src="http://copiapop.com/topalante/ley-y-orden-accion-crim
 capitulo3:"capitulo3" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-3-66605";
 
 capitulo4:"capitulo4" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-4-66606";
+
+capitulo5:"capitulo5" src="http://copiapop.com/topalante/ley-y-orden-accion-criminal-t-5-66607";
